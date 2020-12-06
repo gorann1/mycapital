@@ -5,9 +5,16 @@
   "dependencies": {
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
+    "axios": "^0.21.0",
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-preset-airbnb": "^5.0.0",
+    "babel-runtime": "^6.26.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "webpack-manifest-plugin": "^3.0.0",
+    "whatwg-fetch": "^3.5.0"
   },
   "scripts": {
     "start": "npm-run-all --parallel watch:css start:react",
@@ -35,7 +42,7 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^9.6.0",
+    "autoprefixer": "9.0.0",
     "npm-run-all": "^4.1.5",
     "postcss-cli": "^6.1.2",
     "tailwind.macro": "^1.0.0-alpha.10",
